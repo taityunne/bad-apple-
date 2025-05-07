@@ -1,0 +1,98 @@
+header {
+  display: flex;
+  
+    width : 100%;
+    padding : 20px;
+    background-color : #000000;
+    box-shadow : 6px 0 12px #000000
+}
+
+header h1 {
+    font-family: 'Cambria Math', 'Athelas', 'Times New Roman', sans-serif;
+    text-align: left;
+    color : #ffffff;
+    font-size :45px
+}
+
+header #headerimg {
+
+  margin :0 0 0 auto;
+
+  
+}
+
+header img {
+width : 50px;
+
+cursor : pointer
+}
+
+
+
+  main .iframe {
+
+    padding: 50% 0;
+    position: relative;
+ 
+
+   
+    background-image: url("img/k_bad_apple.png");
+    background-size: calc(16 * 130px) calc(9 * 130px);
+    background-origin :50% 50%;
+    background-position: 50% 50% ;
+    overflow : hidden;
+  
+  }
+
+main #arrange {
+
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top : 50%;
+  left : 50%;
+}
+
+
+
+main #base {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top : 50%;
+  left : 50%;
+    visibility: hidden;
+    
+}
+
+main #arrange .wactive {
+  visibility: hidden;
+}
+
+main #base .wactive {
+  visibility: visible;
+}
+
+main .iactive {
+  background-image: url("img/h_k_bad_apple.png");
+  background-size: calc(16 * 130px) calc(9 * 130px);
+  background-origin :50% 50%;
+  background-position: 50% 50% ;
+  overflow : hidden;
+}
+
+#hd .iactive {
+  display: flex;
+  
+    width : 100%;
+    padding : 20px;
+    background-color : #ffffff;
+    box-shadow : 6px 0 12px #ffffff
+
+}
+.iactive h1 {
+    font-family: 'Cambria Math', 'Athelas', 'Times New Roman', sans-serif;
+    text-align: left;
+    color : #ffffff;
+    font-size :45px;
+    color : #000000;
+}
+
