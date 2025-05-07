@@ -33,11 +33,10 @@ cursor : pointer
 
     padding: 50% 0;
     position: relative;
- 
 
+    backgrou8nd-color: white;
 
-
-    background-image: url("img/k_bad_apple.png");
+    background-image: url("k_bad_apple.png");
     background-size: calc(16 * 130px) calc(9 * 130px);
     background-origin :50% 50%;
     background-position: 50% 50% ;
@@ -73,8 +72,8 @@ main #base .wactive {
 }
 
 main .iactive {
-
-  background-image: url("img/h_k_bad_apple.png");
+  backgrou8nd-color: black;
+  background-image: url("h_k_bad_apple.png");
   background-size: calc(16 * 130px) calc(9 * 130px);
   background-origin :50% 50%;
   background-position: 50% 50% ;
